@@ -9,8 +9,8 @@ class WeatherRespo:
     def __init__(self,database):
         self.database = database
 
-    def save(self,weather_data):
-        self.database.add(weather_data)
+    def save(self,weather_model):
+        self.database.add(weather_model)
         self.database.commit()
 
     def get_city_weather(self,city :str):
