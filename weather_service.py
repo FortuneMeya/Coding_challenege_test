@@ -1,3 +1,10 @@
+"""
+Fortune Meya
+
+This class is used to store the data given from the weather api
+
+"""
+
 class WeatherService:
     def __init__(self, weather_respo, api_info):
         self.weather_respo= weather_respo
